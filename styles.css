@@ -255,12 +255,25 @@ body {
 }
 
 /* Section Styles */
-.section {
+#news{
+   background-size: cover;
+  background-position: center;
+  filter: brightness(0.7);
+  background-image: url("OIP\ \(1\).webp");
   padding: 6rem 0;
 }
 
+#tournaments{
+   background-size: cover;
+  background-position: center;
+   background-image: url("naraka-bladepoint-3840x2160-23630.jpeg");
+  filter: brightness(0.7);
+}
 .section-dark {
-  background: rgba(15, 15, 25, 0.5);
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.7);
+  background-image: url("dragon-ball-z-3840x2160-23208.jpg");
 }
 
 .section-header {
@@ -291,6 +304,7 @@ body {
 
 .tournament-card {
   background: rgba(15, 15, 25, 0.8);
+  
   border: 1px solid rgba(59, 130, 246, 0.2);
   border-radius: 1rem;
   overflow: hidden;
@@ -643,7 +657,10 @@ body {
 /* Newsletter Section */
 .newsletter-section {
   padding: 6rem 0;
-  background: rgba(15, 15, 25, 0.5);
+  background-image: url(OIP\ \(3\).webp);
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.7);
 }
 
 .newsletter-card {
