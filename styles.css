@@ -33,7 +33,15 @@ body {
   backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(59, 130, 246, 0.2);
 }
-
+.headerx {
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: rgba(10, 10, 15, 0.8);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(59, 130, 246, 0.2);
+}
 .header-content {
   display: flex;
   align-items: center;
@@ -106,7 +114,7 @@ body {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url("OIP (2).webp");
+  background-image: url("public/OIP\ \(2\).webp");
   background-size: cover;
   background-position: center;
   filter: brightness(0.7);
@@ -127,12 +135,10 @@ body {
   position: relative;
   z-index: 10;
 }
-
 .hero-content {
   max-width: 800px;
   padding: 4rem 0;
 }
-
 .hero-badge {
   display: inline-flex;
   align-items: center;
@@ -175,7 +181,6 @@ body {
   text-transform: uppercase;
   letter-spacing: -0.02em;
 }
-
 .hero-title-gradient {
   background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 50%, #ec4899 100%);
   -webkit-background-clip: text;
@@ -190,7 +195,6 @@ body {
   margin-bottom: 2.5rem;
   line-height: 1.8;
 }
-
 .hero-button {
   display: inline-flex;
   align-items: center;
@@ -259,21 +263,21 @@ body {
    background-size: cover;
   background-position: center;
   filter: brightness(0.7);
-  background-image: url("OIP\ \(1\).webp");
+  background-image: url("public/OIP\ \(1\).webp");
   padding: 6rem 0;
 }
 
 #tournaments{
    background-size: cover;
   background-position: center;
-   background-image: url("naraka-bladepoint-3840x2160-23630.jpeg");
+   background-image: url("public/naraka-bladepoint-3840x2160-23630.jpeg");
   filter: brightness(0.7);
 }
 .section-dark {
   background-size: cover;
   background-position: center;
   filter: brightness(0.7);
-  background-image: url("dragon-ball-z-3840x2160-23208.jpg");
+  background-image: url("public/dragon-ball-z-3840x2160-23208.jpg");
 }
 
 .section-header {
@@ -657,7 +661,7 @@ body {
 /* Newsletter Section */
 .newsletter-section {
   padding: 6rem 0;
-  background-image: url(OIP\ \(3\).webp);
+  background-image: url(public/OIP\ \(3\).webp);
   background-size: cover;
   background-position: center;
   filter: brightness(0.7);
